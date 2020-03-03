@@ -1,0 +1,19 @@
+{
+    "ci": {
+        "collect": {
+            "numberOfRuns": 1,
+            "settings": {
+            }
+          },
+          "assert": {
+            "preset": "lighthouse:recommended",
+            "assertions": {
+              "offscreen-images": "off",
+              "uses-webp-images": "off"
+            }
+          },
+          "upload": {
+ 	    "serverBaseUrl": "http://localhost:9001/app/projects/"
+          }
+    }
+  }
