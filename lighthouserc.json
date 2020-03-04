@@ -14,7 +14,7 @@
             }
           },
           "upload": {
- 	 	"serverBaseUrl": "http://localhost:9001/app/projects/"
+ 	 "serverBaseUrl": "http://localhost:9001/app/projects/"
           }
     }
   }
