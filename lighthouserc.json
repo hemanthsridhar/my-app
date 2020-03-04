@@ -3,7 +3,7 @@
         "collect": {
             "numberOfRuns": 1,
             "settings": {
-	    "chromeFlags": "--no-sandbox --headless"	
+           	    "chromeFlags": "--no-sandbox --headless"	
             }
           },
           "assert": {
