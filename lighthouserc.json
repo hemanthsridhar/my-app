@@ -3,7 +3,7 @@
         "collect": {
             "numberOfRuns": 1,
             "settings": {
-           	    "chromeFlags": "--no-sandbox --headless"	
+           	    "chromeFlags": "--no-sandbox --headless"
             }
           },
           "assert": {
@@ -11,10 +11,13 @@
             "assertions": {
               "offscreen-images": "off",
               "uses-webp-images": "off"
+              "categories:performance": ["error", {"minScore": 0.85}],
+              "categories:accessibility": ["error", {"minScore": 0.8}],
+              "categories:seo": ["error", {"minScore": 0.9}]
             }
           },
           "upload": {
- 	 "serverBaseUrl": "http://localhost:9001/app/projects/"
+ 	            "serverBaseUrl": "http://localhost:9001/app/projects/"
           }
     }
   }
